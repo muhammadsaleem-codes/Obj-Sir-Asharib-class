@@ -222,12 +222,6 @@ console.log(x);
 // var pass=counPassings()
 // console.log(pass)
 
-
-
-
-
-
-
 var obj={
  
     name: 'muhammad',
@@ -253,8 +247,5 @@ return(total/500) *100
 delete obj.class
 console.log(obj);
 
-//  var x=remove(obj.class)
-//  console.log(x)
 var totaly = obj.calPer();
 console.log(totaly);
-// console.log(total)
