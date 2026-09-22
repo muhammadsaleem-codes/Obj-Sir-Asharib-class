@@ -135,3 +135,126 @@
 // console.log(student.highestMarks());
 
 
+var arr=[60, 60, 70, 60, 50, 45,];
+var total=0;
+for (var i=0; i<arr.length; i++){
+    total+=arr[i]
+    var x=total/500*100
+}
+console.log(x);
+// console.log(arr[5]); 
+// this whole function is correct and it just called in 
+//  seprate function like without storing and puting it in console idf we wanna have thi result in
+//  console we have to call function inside console
+// var arry=[80, 60, 50, 90, 80,];
+// function calPercentage() {
+//     var myTotal=0;
+//     for(var i=0; i<arry.length; i++){   /// 
+//         myTotal=myTotal+arry[i]
+//     }
+//     return (myTotal/500) * 100
+//     // console.log(myTotal);
+    
+// }
+// calPercentage()
+
+//    document.write(calPercentage() + "%");
+
+// var arry = [80, 60, 50, 90, 80];
+
+// function calPercentage() {
+
+//     var myTotal = 0;
+
+//     for (var i = 0; i < arry.length; i++) {
+
+//         myTotal = myTotal + arry[i];
+
+//     }
+
+//     return (myTotal / 500) * 100;
+// }
+
+// console.log(calPercentage());
+
+
+// var marks = [70, 85, 60, 90, 75];
+// function calAverage(){
+//     var urTotal=0;
+//     for(var i=0; i<marks.length; i++){
+//     urTotal+=marks[i]
+// }
+//       return urTotal/marks.length
+// }
+// var x=calAverage()
+// console.log(x)
+
+
+
+// var numbers = [20, 45, 12, 89, 34, 67];
+// function findHighest(){
+//     var highest=numbers[0];
+//     for(var i=0; i<numbers.length; i++){
+//         if(numbers[i]< highest){
+//             highest=numbers[i]
+//         }
+     
+//     }
+
+//     return highest
+// }
+
+// var highestNumber=findHighest()
+// console.log(highestNumber);
+
+// var countingMarks=[45, 80, 32, 67, 90, 25, 55];
+// function counPassings() {
+//     var count=0;
+//     for(var i=0; i<countingMarks.length; i++){
+//         if (countingMarks[i] >=50){
+//             count++
+//         }
+//     }
+//     return count
+    
+// }
+
+// var pass=counPassings()
+// console.log(pass)
+
+
+
+
+
+
+
+var obj={
+ 
+    name: 'muhammad',
+    class: '12th',
+    section:'A',
+    marks:[60, 90 ,70 ,50, 80, 40, 30,],
+    calPer: function takeTotal() {
+   var total=0;
+   for(var i=0; i<this.marks.length; i++){
+     total+=this.marks[i]
+
+     if(this.marks[i] <  60){
+        console.log('fail')
+     }
+   }
+
+//    console.log(total);
+return(total/500) *100
+// return (total/5)
+
+}
+}
+delete obj.class
+console.log(obj);
+
+//  var x=remove(obj.class)
+//  console.log(x)
+var totaly = obj.calPer();
+console.log(totaly);
+// console.log(total)
