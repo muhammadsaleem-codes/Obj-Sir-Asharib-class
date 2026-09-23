@@ -351,7 +351,7 @@ for (let i = 0; i < thisNumbers.length; i++) {
 }
 
 
-//totaling jus even numbers 
+//totaling just even numbers 
 let totalFindNumbers = [10, 15, 20, 7, 8, 12, 25, 30];
 
 let theTotal = 0;
