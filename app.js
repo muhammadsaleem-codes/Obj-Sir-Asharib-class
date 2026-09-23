@@ -249,3 +249,14 @@ console.log(obj);
 
 var totaly = obj.calPer();
 console.log(totaly);
+
+
+
+var arry=['ali', 'bilal', 'ahmed', 'umar', 'hamza', 'hassan']
+var  index=3
+arry.splice(0, 1, 'muhammad saleem'),
+console.log(`An index of ${index} returns ${array.at(index)}`);
+
+
+console.log(`An index of ${index} returns ${array.at(index)}`);
+// Expected output: "An index of -2 returns 130"
