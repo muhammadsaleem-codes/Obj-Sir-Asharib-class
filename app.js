@@ -252,11 +252,116 @@ console.log(totaly);
 
 
 
-var arry=['ali', 'bilal', 'ahmed', 'umar', 'hamza', 'hassan']
+var array=['ali', 'bilal', 'ahmed', 'umar', 'hamza', 'hassan']
 var  index=3
-arry.splice(0, 1, 'muhammad saleem'),
+array.splice(0, 1, 'muhammad saleem'),
 console.log(`An index of ${index} returns ${array.at(index)}`);
 
 
 console.log(`An index of ${index} returns ${array.at(index)}`);
 // Expected output: "An index of -2 returns 130"
+
+
+
+
+
+ //printing fruits
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+for(var i =0; i<fruits.length;i++){
+console.log(fruits[i])
+}
+
+///gerting total numbers
+let numbers = [10, 20, 30, 40, 50];
+var total=0;
+for (var i=0; i<numbers.length; i++){
+  total=total+numbers[i]
+}console.log(total)
+
+
+
+
+ //checking smalest number
+let number= [12, 7, 18, 25, 30, 41, 50];
+var higestnumebr=number[0]
+for(var i=0; i<number.length; i++){
+  if (number[i >higestnumebr]){
+    number[i]=higestnumebr
+  }
+}
+console.log(higestnumebr)
+
+
+
+ //checking smalest number
+let mynumber = [20, -5, 12, -30, 90, 8];
+var myhigh=mynumber[0];
+for(var i =0; i<mynumber.length ; i++){
+  if(mynumber[i]< myhigh){
+    mynumber[i]=myhigh
+  }
+}
+console.log(myhigh)
+
+
+
+
+//printing just marks
+
+let students = [
+    { name: "Saleem", marks: 80 },
+    { name: "Ahmed", marks: 45 },
+    { name: "Noor", marks: 72 },
+    { name: "Ali", marks: 38 },
+    { name: "Saad", marks: 90 }
+];
+
+
+for(var i=0; i<students.length; i++){
+  //students[i].marks
+  console.log(students[i].marks)
+}
+
+
+
+
+//geting even numbers
+var urnumbers=[13, 45, 70, 90, 67,44, 22,];
+for(var i=0; i<urnumbers.length; i++){
+//   if(urnumbers[i]% 2==0){
+//     console.log("even number")
+//   }
+// }
+
+// GETING OD NUMBERS
+if(urnumbers[i]%2== 1){
+  console.log("odd number")
+}
+}
+
+
+
+//printing odd numbers
+let thisNumbers = [13, 45, 70, 90, 67, 44, 22, 31, 55];
+for (let i = 0; i < thisNumbers.length; i++) {
+     if(thisNumbers[i] %2==1){
+      console.log(thisNumbers[i])
+     }
+  
+}
+
+
+//totaling jus even numbers 
+let totalFindNumbers = [10, 15, 20, 7, 8, 12, 25, 30];
+
+let theTotal = 0;
+
+
+for (let i = 0; i < totalFindNumbers.length; i++) {
+
+    if (totalFindNumbers[i] % 2 == 0) {
+        theTotal = theTotal + totalFindNumbers[i];
+    }
+}
+
+console.log(theTotal);
