@@ -374,3 +374,21 @@ for(var i =0; i<myArray.length; i++){
     console.log(thisTotal)
 
 }
+
+function Student(name, age, marks) {
+   this.name=name;
+   this.age=age;
+   this.marks=marks;
+  
+}
+Student.prototype.calPercentage= function (){
+  let myobt=0;
+  for (var i=0; i<this.marks.length; i++){
+    myobt+=this.marks[i]
+  }
+ return((myobt/500)*100)
+}
+let sdt1=new Student('muhammad saleem', 24, [56, 70, 90, 80, 60, 90,])
+let sdt2=new Student('muhammad saleem', 24, [60, 50, 80, 70, 80, 80,])
+console.log(sdt1.calPercentage());
+console.log(sdt2.calPercentage());
