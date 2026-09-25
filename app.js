@@ -352,16 +352,25 @@ for (let i = 0; i < thisNumbers.length; i++) {
 
 
 //totaling just even numbers 
-let totalFindNumbers = [10, 15, 20, 7, 8, 12, 25, 30];
+// let totalFindNumbers = [10, 15, 20, 7, 8, 12, 25, 30];
 
-let theTotal = 0;
+// let theTotal = 0;
 
 
-for (let i = 0; i < totalFindNumbers.length; i++) {
+// for (let i = 0; i < totalFindNumbers.length; i++) {
 
-    if (totalFindNumbers[i] % 2 == 0) {
-        theTotal = theTotal + totalFindNumbers[i];
-    }
+//     if (totalFindNumbers[i] % 2 == 0) {
+//         theTotal = theTotal + totalFindNumbers[i];
+//     }
+// }
+
+// console.log(theTotal);
+
+
+let myArray=[12, 13, 45, 67, 78,];
+ let thisTotal=0;
+for(var i =0; i<myArray.length; i++){
+    thisTotal+=myArray[i]
+    console.log(thisTotal)
+
 }
-
-console.log(theTotal);
